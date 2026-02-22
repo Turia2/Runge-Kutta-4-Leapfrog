@@ -46,6 +46,5 @@ The RK4 integrator shows a divergent relative error with respect to the theoreti
 1. Compile the C++ code:
   'g++ main.cpp -o nbody -lsfml-graphics -lsfml-window -lsfml-system'
 2. Choose between creating the simulation or generating a CSV file with system data using RK4 and Leapfrog.
-
-3.Run the Python file to visualize the comparison between both integrators:
+3. Run the Python file to visualize the comparison between both integrators:
   'python analisis.py'
