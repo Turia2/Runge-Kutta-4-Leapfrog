@@ -6,7 +6,7 @@ Es fa ús de C++ per a la simulació de N-cossos conjuntament amb la llibreria S
 
 ## Resultats
 L'integrador RK4 -que té un cost de computació de N^2- mostra un error relatiu respecte al teòric divergent degut a la seva natura no simplèctica. D'altra banda, l'error relatiu de l'energia de Leapfrog es manté oscil·lant, donant major precisió a llarga durada del càlcul l'òrbita. Baix es presenta una gràfica comparativa.
-![Comparació de l'energia](Energia.jpg)
+![Comparació de l'energia](Energia.png)
 
 ## Mode d'ús
 1. Compilar el codi en C++:
@@ -23,7 +23,7 @@ Se hace uso de C++ para la simulación de N-cuerpos conjuntamente con la librer�
 ## Resultados
 El integrador RK4 —que tiene un coste de computación de N^2— muestra un error relativo respecto al teórico divergente debido a su naturaleza no simpléctica. Por otro lado, el error relativo de la energía de Leapfrog se mantiene oscilando, dando mayor precisión a larga duración del cálculo de la órbita. Abajo se presenta una gráfica comparativa.
 
-![Comparación de la energía](Energia.jpg)
+![Comparación de la energía](Energia.png)
 
 ## Modo de uso
 1. Compilar el código en C++:
@@ -40,7 +40,7 @@ C++ is used for the N-body simulation together with the SFML library for real-ti
 
 ## Results
 The RK4 integrator —which has a computational cost of N²— shows a divergent relative error with respect to the theoretical value due to its non-symplectic nature. On the other hand, the relative energy error of Leapfrog remains oscillating, providing greater long-term precision in orbit calculation. A comparative graph is shown below.
-![Energy comparison](Energia.jpg)
+![Energy comparison](Energia.png)
 
 ## Usage
 1. Compile the C++ code:
