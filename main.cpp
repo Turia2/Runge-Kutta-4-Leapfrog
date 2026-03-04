@@ -77,8 +77,6 @@ class Cuerpo{
             colorTrayectoria.a = 100; 
             
         }
-
-        //RK4 
         Estado derivadas(const Estado& estado_temp, const vector<Cuerpo>& sistema, int id){
             double ax_total = 0.0;
             double ay_total = 0.0; 
@@ -385,4 +383,5 @@ int main()
 
 
     return 0;
+
 }
